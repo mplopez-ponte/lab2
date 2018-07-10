@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('lab2_stage') {
+    stage('lab2_stage1') {
       steps {
-        build 'job1'
+        echo 'Hola desde stage1'
       }
     }
   }
