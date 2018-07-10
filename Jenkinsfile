@@ -6,5 +6,10 @@ pipeline {
         echo 'Hola desde stage1'
       }
     }
+    stage('Test2') {
+      steps {
+        echo 'Hola desde stage Test2'
+      }
+    }
   }
 }
